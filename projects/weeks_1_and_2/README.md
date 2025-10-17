@@ -37,8 +37,8 @@ Establish scientific framing, ensure a reproducible setup, and perform initial E
 
 **References:**
 - The Well: a Large-Scale Collection of Diverse Physics Simulations for Machine Learning: https://arxiv.org/abs/2412.00568
-  
-
+- Learning fast, accurate, and stable closures of a kinetic theory of an active fluid: https://www.sciencedirect.com/science/article/pii/S0021999124001189 
+- The Well GitHub repository: https://github.com/PolymathicAI/the_well/blob/master/docs/tutorials/dataset.ipynb
 ---
 
 ## Project 01 — Predicting Emergent Dynamics (Team 1: Jorge and Jhon)
