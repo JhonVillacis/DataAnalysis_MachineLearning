@@ -39,7 +39,7 @@ Establish scientific framing, ensure a reproducible setup, and perform initial E
 
 ---
 
-## Project 01 — Predicting Emergent Dynamics (Team 1)
+## Project 01 — Predicting Emergent Dynamics (Team 1: Jorge and Jhon)
 **Goal:** Forecast short-term evolution of **global observables** (e.g., vorticity, order parameters, energy).
 
 ### Activities 
@@ -59,7 +59,7 @@ Establish scientific framing, ensure a reproducible setup, and perform initial E
 
 ---
 
-## Project 02 — Revealing Hidden Order (Team 2)
+## Project 02 — Revealing Hidden Order (Team 2: Leonel and Isaac)
 **Goal:** Learn **low-dimensional latent spaces** that capture phases/transitions and organize dynamics across regimes.
 
 ### Activities 
@@ -71,6 +71,25 @@ Establish scientific framing, ensure a reproducible setup, and perform initial E
 - [ ] **Latent model design **  
   - AE/VAE architecture sketch (encoder/decoder, latent dims, losses).  
   - Define metrics: clustering separation, reconstruction error, trajectory smoothness.
+
+
+## Project 03 — Learning Physics-Aware Surrogates (Team 3: Franklin and Daniel)
+**Goal:** Build interpretable, generalizable surrogates that integrate **physical constraints** (e.g., divergence-free fields, conservation) with ML to simulate active matter across parameter regimes.
+
+### Activities 
+- [ ] **Physics characterization **  
+  - Identify key constraints/symmetries (e.g., incompressibility, energy budget).  
+  - Express them mathematically; map each to a viable **loss term**, architectural constraint, or training prior.  
+  - List candidate PDEs/residuals relevant to the dataset and feasible to include.
+- [ ] **Baseline emulation **  
+  - Train a simple next-step predictor (e.g., shallow CNN or UNet-lite) from past frames/fields.  
+  - Record accuracy and **failure modes** (e.g., drift, non-physical artifacts).
+- [ ] **Hybrid model plan **  
+  - Survey PINNs / physics-guided networks for fluid/active matter.  
+  - Draft a **hybrid approach**: physics loss (PDE residuals), divergence-free projection layers, or symplectic/volume-preserving updates.  
+  - Define evaluation metrics: physical residuals, divergence norm, generalization to unseen parameters, robustness to noise.
+
+
 
 ### Deliverables 
 - [ ] Notebook: preprocessing pipeline & PCA/t-SNE  
@@ -103,7 +122,7 @@ Ground biological context, validate data quality, produce descriptor/latent EDA,
 
 ---
 
-## Project 04 — Latent Mapping of Developmental Trajectories (Team 4)
+## Project 04 — Latent Mapping of Developmental Trajectories (Team 4: Pablo)
 **Goal:** Learn latent spaces that organize **time** and **genotype** and align developmental stages across embryos.
 
 ### Activities 
@@ -123,7 +142,7 @@ Ground biological context, validate data quality, produce descriptor/latent EDA,
 
 ---
 
-## Project 05 — Forecasting Morphogenesis (Team 5)
+## Project 05 — Forecasting Morphogenesis (Team 5: Alejandro and Angel)
 **Goal:** Forecast future embryo morphology in **latent** and **image space**.
 
 ### Activities 
